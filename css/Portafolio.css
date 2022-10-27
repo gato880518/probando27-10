@@ -1,0 +1,136 @@
+.titulosPortafolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    height: 100px;
+    background-color: var(--black-color);
+
+
+}
+
+
+.portafolio {
+    height: 100px;
+    width: 250px;
+    margin-left: 25px;
+
+}
+
+
+.portafolio h1 {
+    color: var(--white-color);
+
+
+}
+
+
+
+.containerPortafolios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--black-color);
+
+}
+
+
+.logosPortafolios {
+
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1100px) {
+
+
+    .titulosPortafolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portafolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    .containerPortafolios {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+
+
+    }
+
+
+    .tituloContacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1100px) {
+
+
+    .titulosPortafolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portafolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    .containerPortafolios {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+
+
+    }
+
+
+
+}
